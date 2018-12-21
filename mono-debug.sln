@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mono-debug", "mono-debug.csproj", "{6B18B22D-6B1A-4BF9-BD46-DF84EE2181C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mono-debug", "src\mono-debug.csproj", "{6B18B22D-6B1A-4BF9-BD46-DF84EE2181C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,12 +16,18 @@ Global
 		{6B18B22D-6B1A-4BF9-BD46-DF84EE2181C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B18B22D-6B1A-4BF9-BD46-DF84EE2181C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {867924E2-ED31-4E10-B473-39409B5C3FDF}
+	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = None
 		$1.ResourceNamePolicy = FileFormatDefault
-		$0.TextStylePolicy = $2
+		$0.TextStylePolicy = $4
 		$2.FileWidth = 160
 		$2.TabsToSpaces = False
 		$2.inheritsSet = VisualStudio
@@ -53,14 +59,10 @@ Global
 		$3.SpacingAfterMethodDeclarationName = False
 		$3.SpaceAfterMethodCallName = False
 		$3.SpaceBeforeOpenSquareBracket = False
-		$0.TextStylePolicy = $4
 		$4.FileWidth = 120
 		$4.TabsToSpaces = False
 		$4.inheritsSet = VisualStudio
 		$4.inheritsScope = text/plain
 		$4.scope = text/plain
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

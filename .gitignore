@@ -1,4 +1,3 @@
-/out/
 /extension/
 /upload/
 /bin/
@@ -6,10 +5,8 @@
 /packages/
 /obj/
 /mono-debug-*/
-*.vsix
 *.zip
-*.exe
-*.exe.mdb
 mono-debug.userprefs
 npm-debug.log
-.vs/mono-debug/v15/.suo
+.vs/mono-debug/v15/
+package-lock.json
