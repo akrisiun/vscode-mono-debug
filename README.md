@@ -2,6 +2,9 @@
 
 A simple VS Code debugger extension for the Mono VM. Its implementation was inspired by the [SDB](https://github.com/mono/sdb) command line debugger.
 
+dotnet add package Microsoft.TargetingPack.NETFramework.v4.6   --version 1.0.1 --source https://dotnet.myget.org/F/dotnet-core/api/v3/index.json
+
+
 ![Mono Debug](images/mono-debug.png)
 
 ## Installing Mono

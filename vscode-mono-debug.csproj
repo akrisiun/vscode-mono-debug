@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="images\**" />
+    <Compile Remove="src\typescript\**" />
+    <Compile Remove="testdata\**" />
+    <EmbeddedResource Remove="images\**" />
+    <EmbeddedResource Remove="src\typescript\**" />
+    <EmbeddedResource Remove="testdata\**" />
+    <None Remove="images\**" />
+    <None Remove="src\typescript\**" />
+    <None Remove="testdata\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--
+    <PackageReference Include="Microsoft.TargetingPack.NETFramework.v4.6" Version="1.0.1" />
+    -->
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <PackageReference Include="ICSharpCode.NRefactory" Version="5.5.1" />
+    <PackageReference Include="Mono.Debugger.Soft" Version="1.0.20170212.42" />
+    <PackageReference Include="Mono.Debugging" Version="1.0.20170212.42" />
+    <PackageReference Include="Mono.Debugging.Soft" Version="1.0.20170212.42" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>
